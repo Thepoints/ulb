@@ -550,12 +550,12 @@ function UILibrary.Load(GUITitle)
 			
 			local EffectLeft, EffectRight = Frame(), Frame()
 			
-			EffectLeft.BackgroundColor3 = Color3.fromRGB(35,35,35)
+			EffectLeft.BackgroundColor3 = Color3.fromRGB(0,255,149)
 			EffectLeft.Position = UDim2.new(1,-5,0,0)
 			EffectLeft.Size = UDim2.new(0,5,1,0)
 			EffectLeft.Parent = PickerLeftSide
 			
-			EffectRight.BackgroundColor3 = DefaultColour
+			EffectRight.BackgroundColor3 = Color3.fromRGB(93,39,255)
 			EffectRight.Size = UDim2.new(0,5,1,0)
 			EffectRight.Parent = PickerRightSide
 			
