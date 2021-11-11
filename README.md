@@ -687,6 +687,7 @@ function UILibrary.Load(GUITitle)
 			RightTick.Parent = ToggleRightSide
 			
 			local ToggleButton = TextButton(Text, 12)
+            ToggleButton.BackgroundColor3 = Color3.fromRGB(32,255,155)
 			ToggleButton.Name = "ToggleButton"
 			ToggleButton.Size = UDim2.new(1,0,1,0)
 			ToggleButton.Parent = ToggleLeftSide
