@@ -234,7 +234,7 @@ function UILibrary.Load(GUITitle)
 	MinimiseButton.Name = "Minimise"
 	MinimiseButton.Parent = TitleBar
 	
-	TitleButton = TextButton(GUITitle, 14)
+	TitleButton = TextButton(GUITitle, 15)
 	TitleButton.Name = "TitleButton"
     TitleButton.TextColor3 = Color3.fromRGB(20,142,218)
 	TitleButton.Size = UDim2.new(1,-20,1,0)
@@ -295,6 +295,7 @@ function UILibrary.Load(GUITitle)
 		
 		local PageButton = TextButton(PageTitle, 14)
 		PageButton.Name = PageTitle.."Button"
+        PageButton.TextColor3 = Color3.fromRGB(51,0,255)
 		PageButton.TextTransparency = (TabCount == 0) and 0 or 0.5
 		PageButton.Parent = PageContainer
 		
