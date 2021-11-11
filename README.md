@@ -397,6 +397,7 @@ function UILibrary.Load(GUITitle)
 			
 			if Underline then
 				local TextSize = TextService:GetTextSize(Text, 12, Enum.Font.Gotham, Vector2.new(0,0))
+                TextSize.TextColor3 = Color3.fromRGB(0,255,149)
 			
 				local BottomEffect = Frame()
 				BottomEffect.Size = UDim2.new(0,TextSize.X,0,1)
