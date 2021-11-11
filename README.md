@@ -295,7 +295,7 @@ function UILibrary.Load(GUITitle)
 		
 		local PageButton = TextButton(PageTitle, 14)
 		PageButton.Name = PageTitle.."Button"
-        PageButton.TextColor3 = Color3.fromRGB(51,0,255)
+        PageButton.TextColor3 = Color3.fromRGB(255,0,4)
 		PageButton.TextTransparency = (TabCount == 0) and 0 or 0.5
 		PageButton.Parent = PageContainer
 		
@@ -434,6 +434,7 @@ function UILibrary.Load(GUITitle)
 			
 			local HiddenLabel = TextLabel(Text, 12)
 			HiddenLabel.Parent = LabelForeground
+            HiddenLabel.TextColor3 = Color3.fromRGB(0,255,238)
 		end
 		
 		function PageLibrary.AddDropdown(Text, ConfigurationArray, Callback)
